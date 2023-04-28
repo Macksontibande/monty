@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * to_pop - function that removes the top element of the stack.
+ * _pop - function that removes the top element of the stack.
  * @stack: double pointer to the head of stack
  * @line_number: script line number.
  *
@@ -12,7 +12,7 @@
  * Return: No return.
  */
 
-void to_pop(stack_t **stack, unsigned int line_number)
+void _pop(stack_t **stack, unsigned int line_number)
 {
 	stack_t *popped;
 

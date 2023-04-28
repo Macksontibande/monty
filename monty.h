@@ -86,7 +86,7 @@ void to_push(stack_t **stack, unsigned int line_number);
 void to_pall(stack_t **stack, unsigned int line_number);
 int interpreter(char *num_string, unsigned int line_number);
 void to_pint(stack_t **stack, unsigned int line_number);
-void to_pop(stack_t **stack, unsigned int line_number);
+void _pop(stack_t **stack, unsigned int line_number);
 void to_swap(stack_t **stack, unsigned int line_number);
 void to_add(stack_t **stack, unsigned int line_number);
 void to_nop(stack_t **stack, unsigned int line_number);
